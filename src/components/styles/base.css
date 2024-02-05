@@ -1,0 +1,75 @@
+.page-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.homePage-container {
+  width: 50%;
+  margin: 0, 5%;
+  padding: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.page-title {
+  text-align: center;
+  font-size: 34px;
+  color: #000000;
+}
+
+.page-button {
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-button:hover {
+  background-color: #204522;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+input {
+  font-size: 20px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+}
+
+option {
+  font-style: italic;
+  font-size: 15px;
+}

@@ -1,0 +1,94 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+.canvas-div{
+    height: 100%;
+    width: 100%;
+    background-color: #fff6de;
+}
+
+.tool-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .navigation-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2ffef;
+    padding: 10px;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section {
+    margin-right: auto;
+  }
+  
+  .right-section {
+    margin-left: auto; 
+  }
+  .middle-section {
+    flex-grow: 1;
+  }
+
+  .effect-tools {
+    margin-top: 10px;
+  }
+  
+  .additional-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .editor-canvas {
+    margin: 0 auto;
+    background-color: #ffffff;
+    /*width: 100%;*/
+    /*height: 100%;*/
+  }
+
+  .tool-bar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .graphic-primitives {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Apply consistent styling to buttons in graphic primitives */
+  .graphic-primitives button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Apply consistent styling to the color input */
+  .element {
+    width: 100%; 
+    height: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Add spacing between color input and buttons */
+  }
